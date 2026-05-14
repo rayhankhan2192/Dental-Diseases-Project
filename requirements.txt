@@ -1,0 +1,19 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Base Deep Learning Framework
+torch
+torchvision
+torchaudio
+
+# Object Detection Framework
+ultralytics
+
+# Explainable AI (XAI)
+grad-cam
+
+# Image Processing & Array Manipulation
+opencv-python
+numpy
+
+# Visualization
+matplotlib
