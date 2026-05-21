@@ -108,7 +108,7 @@ def generate_targeted_xai_heatmap(image_path, model_path, output_path):
     plt.tight_layout()
     plt.savefig(output_path)
     print(f"Targeted XAI analysis saved successfully to {output_path}")
-    plt.show()
+    #plt.show()
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Targeted Explainable AI (XAI) for YOLO Models")
